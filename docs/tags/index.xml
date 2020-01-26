@@ -1,0 +1,14 @@
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+ <channel>
+   <title>Tags on THE BLOJEK</title>
+   <link>https://petryaeva.github.io/blojek/tags/</link>
+   <description>Recent content in Tags on THE BLOJEK</description>
+   <generator>Hugo -- gohugo.io</generator>
+   <language>ru</language>
+   
+       <atom:link href="https://petryaeva.github.io/blojek/tags/index.xml" rel="self" type="application/rss+xml" />
+   
+   
+ </channel>
+</rss>

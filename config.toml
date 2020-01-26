@@ -1,0 +1,53 @@
+baseURL = "https://petryaeva.github.io/blojek"
+languageCode = "ru"
+title = "THE BLOJEK"
+theme = "kiss"
+Paginate = 25
+publishDir = "docs"
+
+[params]
+  authorName = "Kate Petryaeva"
+  authorEmail = "petryaeva.e@gmail.com"
+
+[params.assets]
+  customCSS = ["css/custom.css"]
+
+[params.info]
+  adsense = "" # Adsense ID (ID only, without ca-pub-)
+  enableSocial = true # Adds OpenGraph and Twitter cards
+  homeTitle = "" # Title for home page
+  poweredby = true # Adds powered by hugo and kiss below Copyright
+  related = true # Includes related articles at the bottom of the article
+  codeCopy = true # Add copy button above code blocks
+
+[params.features]
+  disqusOnDemand = true  # Load Disqus comments on click
+
+
+[params.opengraph.facebook]
+  admins = [] # array of Facebook IDs
+  appID = ""
+  pageID = ""
+
+[params.opengraph.twitter]
+  page = "" # Twitter Page username. If not set, params.social.twitter will be used.
+
+[params.social]
+twitter = "_petrek"
+github = "petryaeva"
+email = "petryaeva.e@gmail.com"
+linkedin = "ekaterina-petryaeva-27b63ab3/"
+facebook = "e.petryaeva"
+codepen = "petrek"
+
+[params.social.config]
+  platforms = ["github","facebook","twitter","email","codepen","linkedin"]
+
+[taxonomies]
+  tag ="tags"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[permalinks]
+  posts = "/:year/:month/:title/"
